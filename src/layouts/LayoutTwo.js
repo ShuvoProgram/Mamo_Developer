@@ -1,9 +1,9 @@
 import { Fragment, useState } from "react";
-import { HeaderFour } from "@/components/header";
+import { HeaderTwo } from "@/components/header";
 import Footer from "@/components/footer/footer";
 import ScrollToTop from "@/components/scroll-to-top";
 
-const LayoutSix = ({ children, navPositionClass, topbar }) => {
+const LayoutTwo = ({ children, navPositionClass, topbar }) => {
   const [toggleClassName, SetToggleClassName] = useState(false);
 
   function toggleClassNameInBody() {
@@ -15,7 +15,7 @@ const LayoutSix = ({ children, navPositionClass, topbar }) => {
       <div
         className={`body-wrapper ${toggleClassName ? "ltn__utilize-open" : ""}`}
       >
-        <HeaderFour
+        <HeaderTwo
           toggleClassNameInBody={toggleClassNameInBody}
           SetToggleClassName={SetToggleClassName}
           navPositionClass={navPositionClass}
@@ -29,4 +29,4 @@ const LayoutSix = ({ children, navPositionClass, topbar }) => {
   );
 };
 
-export default LayoutSix;
+export default LayoutTwo;
