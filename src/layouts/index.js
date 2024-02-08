@@ -1,5 +1,5 @@
-
+import LayoutOne from "./LayoutOne";
 import LayoutTwo from "./LayoutTwo";
 
 
-export { LayoutTwo };
+export { LayoutOne, LayoutTwo };
