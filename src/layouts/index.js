@@ -1,3 +1,5 @@
-import LayoutSix from "./LayoutSix";
 
-export { LayoutSix };
+import LayoutTwo from "./LayoutTwo";
+
+
+export { LayoutTwo };
