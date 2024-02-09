@@ -8,6 +8,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import clsx from "clsx";
 import MenuList from "@/components/header/elements/menuList";
+import Image from "next/image";
 const HeaderStyleTwo = function ({ SetToggleClassName, topbar }) {
   const [cartMenuOpener, cartMenuOpenerSet] = useState(false);
   const [overlayBtn, SetoverlayBtn] = useState(false);
@@ -74,7 +75,7 @@ const HeaderStyleTwo = function ({ SetToggleClassName, topbar }) {
                 <div className="site-logo-wrap">
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="/img/logo-2.png" alt="Logo" />
+                    <Image width={80} height={80} src="/img/logo.png" alt="Logo" />
                     </Link>
                   </div>
                 </div>
