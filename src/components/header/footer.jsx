@@ -12,6 +12,7 @@ import {
   FaMapMarkerAlt,
   FaPhoneAlt
 } from "react-icons/fa";
+import Image from "next/image";
 
 const Footer = function () {
   return (
@@ -25,7 +26,7 @@ const Footer = function () {
                 <div className="footer-widget footer-about-widget">
                   <div className="footer-logo">
                     <div className="site-logo">
-                      <img src="/img/logo-2.png" alt="Logo" />
+                    <Image width={100} height={100} src="/img/logo_2.png" alt="Logo" />
                     </div>
                   </div>
                   <p>

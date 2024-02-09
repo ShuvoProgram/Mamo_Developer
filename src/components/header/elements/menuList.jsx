@@ -12,7 +12,6 @@ const MenuList = ({ addListing }) => {
             <Link href="/home/page-six">Home Style 06</Link>
             <img src="/img/home-demos/home-6.jpg" alt="#" />
           </li>
-        
         </ul>
       </li>
       <li className="menu-icon">
